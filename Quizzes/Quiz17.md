@@ -15,5 +15,8 @@
 ## Proof of Work
 
 
+## Truth Table
+
+
 ## Boolean Circuit
 
