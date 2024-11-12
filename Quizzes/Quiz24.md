@@ -62,5 +62,5 @@ print(255 % 16)
 ```
 ![Captura de tela 2024-11-12 024121](https://github.com/user-attachments/assets/6f980c64-dda7-4491-b5b7-4bba4e275c59)
 
-RGB: red = 10, green=255, blue=235
+RGB: red = 10, green=255, blue=235 \n
 HEX: red = 0A, green=FF, blue = EB
