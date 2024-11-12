@@ -4,6 +4,7 @@
 
 ## Paper Work
 
+![IMG_3840](https://github.com/user-attachments/assets/25af5262-dc72-41b3-8ee7-a54059b68993)
 
 ## Code
 
@@ -32,4 +33,5 @@ print(table)
 
 ## Truth Table for Light = S1S2+(S2+S3(notS1))S1 
 
+![IMG_3839](https://github.com/user-attachments/assets/a117bc55-7e79-4987-99e4-60c3ba84fafe)
 
