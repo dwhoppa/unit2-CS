@@ -5,6 +5,7 @@
 
 ## Paper Work
 
+![IMG_3852](https://github.com/user-attachments/assets/88307687-6199-482a-bda5-c6ac85b243a7)
 
 ## Code
 
@@ -53,5 +54,13 @@ print(data)
 
 ## a. Convert the following rgb color to hex color
 
+```py
+# integer division
+print(255 //16)
+# Rest of division
+print(255 % 16)
+```
+![Captura de tela 2024-11-12 024121](https://github.com/user-attachments/assets/6f980c64-dda7-4491-b5b7-4bba4e275c59)
 
-
+# RGB: red = 10, green=255, blue=235
+# HEX: red = 0A, green=FF, blue = EB
