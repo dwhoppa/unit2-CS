@@ -5,6 +5,7 @@
 
 ## Paper Work
 
+![IMG_3845](https://github.com/user-attachments/assets/45d08207-6fdb-44c1-a6f5-324d4506daf9)
 
 ## Code
 
@@ -50,9 +51,6 @@ plt.show()
 
 ![Captura de tela 2024-11-11 220827](https://github.com/user-attachments/assets/e62cd25b-19e3-410c-add8-811ef00f6456)
 
+## Circuit for not(bit0 bit1 + not (bit0 + bit1))
 
-## Truth Table
-
-
-## Boolean Circuit
-
+![Captura de tela 2024-11-11 220957](https://github.com/user-attachments/assets/b18fea3c-c080-4e72-9830-c2e226096922)
