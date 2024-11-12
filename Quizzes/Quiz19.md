@@ -18,5 +18,3 @@
 ## Truth Table
 
 
-## Boolean Circuit
-
