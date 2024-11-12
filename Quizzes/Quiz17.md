@@ -33,5 +33,3 @@ print(table)
 ## Truth Table for Light = S1S2+(S2+S3(notS1))S1 
 
 
-## Boolean Circuit
-
