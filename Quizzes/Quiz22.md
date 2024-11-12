@@ -2,7 +2,7 @@
 
 ![Captura de tela 2024-11-11 230914](https://github.com/user-attachments/assets/c3d90071-d378-4b01-999e-598f084b1e0b)
 
-## Paper Work
+## Paper Work + Convert FFA5
 
 
 ## Code
@@ -31,3 +31,18 @@ plt.show()
 ## Proof of Work
 
 ![Captura de tela 2024-11-11 230815](https://github.com/user-attachments/assets/e8dd1ce5-9abc-4117-ba3d-d2ea9463dc9d)
+
+
+## Convert FFA5
+
+```py
+x = [1,1,1,1, 1,1,1,1, 1,0,1,0 , 0,1,0,1]
+
+sum = 0
+
+for pos,value in enumerate(x):
+
+  sum += value*2**(15-pos)
+
+print(sum)
+```
