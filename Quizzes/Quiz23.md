@@ -94,3 +94,10 @@ print(f"The H_model={m:.4f}*x+{b:.4f}")
 
 ![Captura de tela 2024-11-12 010824](https://github.com/user-attachments/assets/4d23b09e-7970-4415-8489-9a74a9311222)
 
+## b. Convert the following color hex to rgb
+  #e6e627
+
+    e6 = 1110 0110 = 128 + 64 + 32 + 4 + 2 = 230
+    e6 = 230
+    57 = 0101 0111 = 64 + 16 + 4 + 2 + 1 = 87
+    #e6e627 = (230, 230, 87)
