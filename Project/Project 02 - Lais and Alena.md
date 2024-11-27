@@ -13,6 +13,10 @@ Considering the client requirements an adequate solution includes a low cost sen
 
 Considering the budgetary constrains of the client and the hardware requirements, the software tool that I proposed for this solution is Python. Python's open-source nature and platform independence contribute to the long-term viability of the system. The use of Python simplifies potential future enhancements or modifications, allowing for seamless scalability without the need for extensive redevelopment [^5][^6]. In comparison to the alternative C or C++, which share similar features, Python is a High level programming language (HLL) with high abstraction [^7]. For example, memory management is automatic in Python whereas it is responsability of the C/C++ developer to allocate and free up memory [^7], this could result in faster applications but also memory problems. In addition a HLL language will allow me and future developers extend the solution or solve issues proptly.  
 
+## Design Statement
+
+Our team is developing a program using Arduino and DHT_11 sensors to monitor humidity and temperature required for the 
+growing cabbage in greenhouses. The data will be uploaded to a real-time server within 48 hours and accessed via a secure login. This reliable, proven system will be ready within three weeks and will meet our client's needs (done using Pycharm)
 
 ## Success Criteria
 
