@@ -12,10 +12,13 @@ A function called mistery have a signature which includes A, and B, which data t
 ```py
 
 def mistery (A:list, B:list)
+
 for i in a:
   for j in b:
+
 if i == j:
   output.append(i)
+
 return output
 
 ```
