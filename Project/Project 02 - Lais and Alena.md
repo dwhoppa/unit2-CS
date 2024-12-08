@@ -1,4 +1,5 @@
-![11e470e9022f4fc5b367429bcbb285bc](https://github.com/comsci-uwc-isak/unit2_2023/assets/53995212/1d14b1d3-ae39-4ef3-8ec9-3329630eacae)
+![image](https://github.com/user-attachments/assets/17e0af71-1b46-42f5-b214-105257354d58)
+
 
 # Unit 2: A Distributed Weather Station for ISAK
 
@@ -7,6 +8,7 @@
 ## Problem definition
 
 Cabbages are members of the Brassicaceae (Cruciferae) family which includes crops such as Kale, Cauliflower, Broccoli and Radish. One of the most widely grown, popular and nutritious vegetables in Japan mainly for the domestic market.The length of the total growing period varies between 90 (spring-sown) and 200 (autumn-sown) days, depending on climate, variety and planting date, but for good production the growing period is about 120 to 140 days. Most varieties can withstand a short period of frost of -6°C, some down to -l0°C. Long periods (30 to 60 days) of -5°C are harmful. The plants with leaves smaller than 3 cm will survive long periods of low temperature but when the leaves are 5 to 7 cm, the plant will initiate a seed stalk and this leads to a poor quality yield. Optimum growth occurs at a mean daily temperature of about 17°C with daily mean maximum of 24°C and minimum of 10°C. Mean relative humidity should be in the range of 60 to 90 percent.Our client owns the Cabbage field, which contains multiple greenhouses. Due to fluctuating temperature and humidity levels, the client struggles to maintain marvellous environmental conditions for their plants. These fluctuations, if not monitored, can lead to plant stress, producing smaller harvests and increasing the vulnerability to pests and diseases. Currently, the client lacks an efficient and working system where he can continuously monitor the changes in temperature and humidity. As a result of this issue, the cabbage field has been suffering massive losses on the harvests, causing stress and frustration among the local farmers. This situation has been noticed by the local businesses, who are extremely concerned and are considering changing their food suppliers as the quantity and quality of the products have decreased. The company's reputation in the local community was being ruined, so they approached us to create a solution. The owner, scared by this situation, requested our services to design a server to address the monitoring of environmental factors and ensure accurate data collection and real-time analysis, allowing fast and proactive actions to reduce risks and better manage the plant's development.
+![image](https://github.com/user-attachments/assets/881dc1be-27d6-437f-90f9-1f73c8dd8e0e)
 
 
 ## Proposed Solution
@@ -47,11 +49,47 @@ These models will allow our client to comprehend the fluctuations on the environ
 ## TOK Connection
 To what extent does ```the use of data science``` in climate research influence our understanding of environmental issues, and what knowledge questions arise regarding the ```reliability, interpretation, and ethical implications``` of data-driven approaches in addressing climate change
 
-1. How does our use of technology shape our understanding of the environment
+1. Impact on understanding of environmental issues
+
+Modern use of data science can turn vast amounts of raw data into meaningful and understandable insights. For example, the temperature and humidity data collected through our project not only allows us to monitor the current state of the microclimate, but also to identify patterns such as seasonal fluctuations or critical periods for plants. This knowledge helps to develop strategies to prevent problems such as reduced yields due to unfavorable conditions. At the global level, analyzing climate data contributes to our understanding of phenomena such as global warming, changing precipitation or melting glaciers.
+
+Knowledge questions arise regarding the: 
+
+- Reliability
+   1. Equipment accuracy: How reliable are sensors such as the DHT11 and what errors can occur during measurement?
+
+   2. Human error: How can human errors, such as incorrect sensor settings or mistakes in data processing, impact the reliability and             accuracy of climate data analysis?
+
+- Interpretation
+   1. How does context affect interpretation? Different regions and cultures may have different understandings of what is considered              “ideal” growing conditions.
+
+   2. Who interprets the data? Professionals with different experience and knowledge may come to different conclusions from the same data.
+
+- Ethical implications
+   1. How to ensure the confidentiality of the data collected?
+  
+   2. What measures should be taken to prevent misuse of environmental data, such as its use in competitive business practices or other           unethical activities?
    
 2. What responsibilities do we have as technologists when it comes to handling personal data related to our living spaces?
+   As technologists working with environmental data, we have a number of ethical, technical and social obligations. From an ethical 
+   perspective, the understandability of data collection is essential. Customers must clearly understand what data is being collected, for 
+   what purpose, and who will have access to it. In addition, we must ensure that this data is protected, using strong measures to guard 
+   against leaks, breaches or unauthorized use. From a technical point of view, our obligations include collecting only the data needed for 
+   a specific task, ensuring the reliability of the system to guarantee the accuracy and relevance of the data. From a social point of 
+   view, it is important that the results of our analyses are not used for manipulative purposes, for example, to put undue pressure on the 
+   customer. By respecting these responsibilities, we can create a system that is not only efficient, but also ethically sound and socially 
+   responsible.
    
-3. What cultural and contextual factors might impact our interpretation of the results, especially when comparing our local readings with those from the campus? 
+3. What cultural and contextual factors might impact our interpretation of the results, especially when comparing our local readings with those from the campus?
+   Cultural and contextual factors play an important role in the interpretation of environmental data. Different regions have different 
+   quality standards and traditional approaches to growing plants, which can influence the optimal conditions for crops such as cabbage. 
+   For example, the ideal humidity for cabbage growth may differ depending on local traditions or cultural preferences. Conditions on the 
+   farm and on campus can vary greatly, including factors such as the type of greenhouse, quality of equipment, and available resources. 
+   Local climatic patterns, such as higher humidity in one area, may further affect data interpretation. In addition, the equipment used to 
+   collect data on campus may be more advanced or accurate than on the farm, leading to differences in results. The microclimate on the 
+   farm, which is influenced by factors such as shade, proximity to water sources, or wind exposure, may also differ significantly from the 
+   microclimate on the campus, further complicating the comparison of data at these locations.
+
 
 # Criteria B: Design
 
