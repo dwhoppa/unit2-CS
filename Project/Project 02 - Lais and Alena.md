@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/17e0af71-1b46-42f5-b214-105257354d58)
-
+![Animated weather icons](https://github.com/user-attachments/assets/433a574c-948f-4211-8668-9500b47f6389)
 
 # Unit 2: A Distributed Weather Station for ISAK
 
@@ -8,7 +7,8 @@
 ## Problem definition
 
 Cabbages are members of the Brassicaceae (Cruciferae) family which includes crops such as Kale, Cauliflower, Broccoli and Radish. One of the most widely grown, popular and nutritious vegetables in Japan mainly for the domestic market.The length of the total growing period varies between 90 (spring-sown) and 200 (autumn-sown) days, depending on climate, variety and planting date, but for good production the growing period is about 120 to 140 days. Most varieties can withstand a short period of frost of -6°C, some down to -l0°C. Long periods (30 to 60 days) of -5°C are harmful. The plants with leaves smaller than 3 cm will survive long periods of low temperature but when the leaves are 5 to 7 cm, the plant will initiate a seed stalk and this leads to a poor quality yield. Optimum growth occurs at a mean daily temperature of about 17°C with daily mean maximum of 24°C and minimum of 10°C. Mean relative humidity should be in the range of 60 to 90 percent.Our client owns the Cabbage field, which contains multiple greenhouses. Due to fluctuating temperature and humidity levels, the client struggles to maintain marvellous environmental conditions for their plants. These fluctuations, if not monitored, can lead to plant stress, producing smaller harvests and increasing the vulnerability to pests and diseases. Currently, the client lacks an efficient and working system where he can continuously monitor the changes in temperature and humidity. As a result of this issue, the cabbage field has been suffering massive losses on the harvests, causing stress and frustration among the local farmers. This situation has been noticed by the local businesses, who are extremely concerned and are considering changing their food suppliers as the quantity and quality of the products have decreased. The company's reputation in the local community was being ruined, so they approached us to create a solution. The owner, scared by this situation, requested our services to design a server to address the monitoring of environmental factors and ensure accurate data collection and real-time analysis, allowing fast and proactive actions to reduce risks and better manage the plant's development.
-![image](https://github.com/user-attachments/assets/881dc1be-27d6-437f-90f9-1f73c8dd8e0e)
+
+![Uploading cabbage1.gif…]()
 
 
 ## Proposed Solution
@@ -71,6 +71,7 @@ Knowledge questions arise regarding the:
    2. What measures should be taken to prevent misuse of environmental data, such as its use in competitive business practices or other           unethical activities?
    
 2. What responsibilities do we have as technologists when it comes to handling personal data related to our living spaces?
+
    As technologists working with environmental data, we have a number of ethical, technical and social obligations. From an ethical 
    perspective, the understandability of data collection is essential. Customers must clearly understand what data is being collected, for 
    what purpose, and who will have access to it. In addition, we must ensure that this data is protected, using strong measures to guard 
@@ -81,6 +82,7 @@ Knowledge questions arise regarding the:
    responsible.
    
 3. What cultural and contextual factors might impact our interpretation of the results, especially when comparing our local readings with those from the campus?
+
    Cultural and contextual factors play an important role in the interpretation of environmental data. Different regions have different 
    quality standards and traditional approaches to growing plants, which can influence the optimal conditions for crops such as cabbage. 
    For example, the ideal humidity for cabbage growth may differ depending on local traditions or cultural preferences. Conditions on the 
