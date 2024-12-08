@@ -70,10 +70,27 @@ Add pic
 ## Flow Diagrams
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Write the Problem context                        | 10min         | Nov 22                 | A         |
-
+| Task No | Planned Action                                           | Planned outcome                                        | Time estimate | Date of reaching the target | Criterion |
+|---------|----------------------------------------------------------|--------------------------------------------------------|---------------|-----------------------------|-----------|
+| 1       | Formulate the problem definition and upload it on GitHub | Clear understanding of the problem                     | 20 min        | Nov 26                      | A         |
+| 2       | Make a list of required materials                        | The finished list of materials                         | 5 min         | Nov 27                      | B         |
+| 3       | Formulate design statement                               | Completed statement which addresses client need        | 15 min        | Nov 27                      |           |
+| 4       | Code and upload program for Arduino on Arduino IDE       | Arduino programmed to collect data                     | 45 min        | Nov 29                      | C         |
+| 5       | Construct Arduino Circuit for data collection            | Sensors connected and ready for data collection        | 30 min        | Nov 29                      | C         |
+| 6       | Form Test Plan                                           | Test plans outlined for solution development           | 1 hr          | Nov 29                      | B         |
+| 7       | Test serial connection between Arduino and computer      | Confirm serial connection is functional                | 30 min        | Nov 29                      | C         |
+| 8       | Test DHT11 Sensor and its connection to Arduino          | Verify sensor returns valid readings                   | 15 min        | Nov 29                      | C         |
+| 9       | Code data collection method on PyCharm                   | Program retrieves data every 2 seconds                 | 30 min        | Nov 30                      | C         |
+| 10      | Test if readings can be saved to a CSV file              | Confirm successful saving of readings                  | 15 min        | Nov 30                      | C         |
+| 11      | Test if readings can be sent to a remote server          | Confirm data can be posted to remote server            | 20 min        | Nov 30                      | C         |
+| 12      | Code data storage method on PyCharm                      | Store data locally (CSV) and remotely                  | 1 hr          | Dec 2                       | C         |
+| 13      | Test and finalize hardware and software                  | Resolve bugs and finalize for final data collection    | 1 hr          | Dec 2                       | C         |
+| 14      | Collect temperature and humidity data for 48 hours       | Gather 48 hours of data from sensors                   | 48 hr         | Dec 2 - Dec 4               | C         |
+| 15      | Create flow diagrams and reference figures               | Visual diagrams for process and analysis               | 2 hr          | Dec 5                       | B         |
+| 16      | Construct graphs using Pyplot                            | Generate raw data and averaged graphs using Matplotlib | 3 hr          | Dec 5                       | C/D       |
+| 17      | Conduct usability testing for graphs                     | Finalize graphs for readability and usability          | 30 min        | Dec 6                       | D         |
+| 18      | Design a poster                                          | Create poster summarizing findings and investigation   | 3 hr          | Dec 7                       | D         |
+| 19      | Film video introducing product                           | Film a presentation showcasing the final solution      | 1 hr          | Dec 8                       | D         |
 ## Test Plan
 
 # Criteria C: Development
