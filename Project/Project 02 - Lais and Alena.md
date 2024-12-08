@@ -29,18 +29,28 @@ growing cabbage in greenhouses. The data will be uploaded to a real-time server 
 [^6]:Python Geeks. “Advantages of Python: Disadvantages of Python.” Python Geeks, 26 June 2021, https://pythongeeks.org/advantages-disadvantages-of-python/. 
 [^7]: Real Python. “Python vs C++: Selecting the Right Tool for the Job.” Real Python, Real Python, 19 June 2021, https://realpython.com/python-vs-cpp/#memory-management. 
 
-1. The solution provides a visual representation of the Humidity, Temperature and atmospheric pressure (HL) values inside a dormitory (Local) and outside the house (Remote) for a period of minimum 48 hours. ```** [Issue tacled] **: fill in here```
-1. ```[HL]``` The local variables will be measure using a set of 3 sensors around the dormitory.```** [Issue tacled] **: fill in here```
-2. The solution provides a mathematical modelling for the Humidity, Temperature and atmospheric pressure (HL) levels for each Local and Remote locations. ```(SL: linear model)```, ```(HL: non-lineal model)``` ```** [Issue tacled] **: fill in here```
-3. The solution provides a comparative analysis for the Humidity, Temperature and atmospheric pressure (HL) levels for each Local and Remote locations including mean, standad deviation, minimum, maximum, and median. ```** [Issue tacled] **: fill in here```
-4. ```(SL)```The Local samples are stored in a csv file and ```(HL)``` posted to the remote server as a backup. ```** [Issue tacled] **: fill in here```
-5. The solution provides a prediction for the subsequent 12 hours for Humidity, Temperature and atmospheric pressure (HL). ```** [Issue tacled] **: fill in here```
-6. The solution includes a poster summarizing the visual representations, model and analysis created. The poster includes a recommendation about healthy levels for Humidity, Temperature and atmospheric pressure (HL). ```** [Issue tacled] **: fill in here```
+1. The solution provides a visual representation of the Humidity and Temperature values outside the residences for a period of minimum 48 hours. The issue tackled here is the lack of a real-time monitoring system for tracking fluctuations in temperature and humidity in a cabbage field, which contains multiple greenhouses. This lack of monitoring has resulted in reduced harvest quality and quantity, pest and disease vulnerability, and multiple losses for the farm. By creating a system which can create a visual detailed representation of those fluctuations in the area over a 48-hour period, this will immediately allow our client to take action in order to control the temperature and humidity inside the greenhouses, reducing the losses, and protecting their reputation among the local community. This  monitoring and data analysis system is essential to ensuring the farm maintains ideal conditions for cabbage cultivation.
+   
+2. ```[HL]``` The local variables will be measured using a set of 2 sensors placed outside. One focused on collecting the temperature values and one focused on collecting the humidity data.
+   
+3. The solution provides a mathematical modelling for the Humidity and Temperature levels for each Local and Remote locations. ```(SL: linear model)```, ```(HL: non-lineal model)```
+These models will allow our client to comprehend the fluctuations on the environmental conditions and take action in order to improve the quality and quantity of their products.
 
-_TOK Connection: To what extent does ```the use of data science``` in climate research influence our understanding of environmental issues, and what knowledge questions arise regarding the ```reliability, interpretation, and ethical implications``` of data-driven approaches in addressing climate change_
+4. The solution provides a comparative analysis for the Humidity, Temperature (HL) levels for each Local and Remote locations including mean, standard deviation, minimum, maximum, and median.
+   
+5. ```(SL)```The Local samples are stored in a csv file and ```(HL)``` posted to the remote server as a backup.
+   
+6. The solution provides a prediction for the subsequent 12 hours for Humidity, and Temperature (HL). 
+   
+7. The solution includes a poster summarizing the visual representations, model and analysis created. The poster includes a recommendation about healthy levels for Humidity, and Temperature(HL). 
+
+## TOK Connection
+To what extent does ```the use of data science``` in climate research influence our understanding of environmental issues, and what knowledge questions arise regarding the ```reliability, interpretation, and ethical implications``` of data-driven approaches in addressing climate change
 
 1. How does our use of technology shape our understanding of the environment
+   
 2. What responsibilities do we have as technologists when it comes to handling personal data related to our living spaces?
+   
 3. What cultural and contextual factors might impact our interpretation of the results, especially when comparing our local readings with those from the campus? 
 
 # Criteria B: Design
