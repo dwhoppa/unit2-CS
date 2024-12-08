@@ -56,16 +56,15 @@ To what extent does ```the use of data science``` in climate research influence 
 # Criteria B: Design
 
 ## System Diagram **HL**
+![2 min](https://github.com/user-attachments/assets/17e07aee-1474-40d4-bcb2-bc59d136aa8b)
 
-![System Diagrams unit 2 (1)](https://github.com/user-attachments/assets/7ec53d20-7afa-4279-8ac2-b5798e38f4db)
+**Fig.1** shows the system schematic for the proposed solution (HL). Outdoor humidity and temperature data will be measured using an Arduino and a DHT11 sensor that is positioned so that it records data from the outside. The variables will be queried on the remote server using a GET request to the server API at 192.168.4.137. The local values are stored in a CSV database locally and a backup copy will be store in the remote server using the Weather API.
 
-**Fig.1** System diagram (HL) for the proposed system to visualize and analyze temperature and humidity data in our campus. Physical variables measured with a network of DHT11/BMP280 sensors locally. A remote server provides and API for remote monitoring and storage via the ISAK-S network. 
+![image](https://github.com/user-attachments/assets/01c6219e-5bdd-4bb0-ac22-b202cb1446b4)
+**Fig.2** shows the hardware architecture of the Arduino. The Arduino is connected to the computer using a USB cable. The DHT11 sensors are connected to the Arduino pins as shown in the figure. The Arduino is powered from the computer using a USB cable.
 
-Add pic
-**Fig.2** 
-
-Add pic
-**Fig.3**
+![image](https://github.com/user-attachments/assets/f15d3bf7-9944-4364-842d-1b58a42941b9)
+**Fig.3** shows the location of the setup in the room. The laptop and Arduino are placed on the windowsill so that the DHT 11 sensor faces the outside and measures the temperature and humidity data from outside. 
 
 ## Flow Diagrams
 
